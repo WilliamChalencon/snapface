@@ -1,0 +1,4 @@
+<!--track permets de suivre l'evolution du tableau et de modifier les elements qui ont changé -->
+@for(faceSnap of faceSnaps; track faceSnap.title){
+    <app-face-snap [faceSnap]="faceSnap"/>
+}
